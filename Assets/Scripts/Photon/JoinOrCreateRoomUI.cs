@@ -93,7 +93,7 @@ public class JoinOrCreateRoomUI : MonoBehaviourPunCallbacks
     public sting tankPrefabName = "Tank"
 
         [PunRPC]
-        void ReceiveMessage(string str)
+        void ReceiveMessage(string str);
 
     }
 }
